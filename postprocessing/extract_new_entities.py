@@ -67,8 +67,8 @@ def ne_extraction(numberOfSeeds, name, prevnumberOfIteration, numberOfIteration,
                 if b == 'DATA':
                     a = a.translate(str.maketrans('', '', string.punctuation))
                     try:
-                        if res[jj + 1][1] == 'DATA':
-                            temp = res[jj + 1][0].translate(str.maketrans('', '', string.punctuation))
+                        if tagged[jj + 1][1] == 'DATA':
+                            temp = tagged[jj + 1][0].translate(str.maketrans('', '', string.punctuation))
 
                             bigram = a + ' ' + temp
                             result.append(bigram)
