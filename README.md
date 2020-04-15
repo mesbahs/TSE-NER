@@ -68,23 +68,23 @@ out irrelevant entities using the "filtering". Next the new filtered entities ca
 For the Sentence Expansion approach, everything is the same except, for each sentence (trainingdata_generation.generate_trainingSE), we find its most similar sentence in the corpus
 using doc2vec. If the new sentence contains a word of the Term Expansion we will label it accordingly, if not we use it as negative example.
 
-##TSE-NER  cleaned sourcecode: https://github.com/mvallet91/SmartPub-TSENER (check Pipeline_Preparation and Pipeline_TSENER Notebooks for a clear example)
+#TSE-NER  cleaned sourcecode: https://github.com/mvallet91/SmartPub-TSENER (check Pipeline_Preparation and Pipeline_TSENER Notebooks for a clear example)
 
-##Seed Terms used: https://docs.google.com/spreadsheets/d/1h2PXyG9hKnMIcaorU5_YzOn8T90nP6COtSnSK3bz6rU/edit?usp=sharing
+#Seed Terms used: https://docs.google.com/spreadsheets/d/1h2PXyG9hKnMIcaorU5_YzOn8T90nP6COtSnSK3bz6rU/edit?usp=sharing
 
 
 
-##Baselines used for evaluation:
+#Baselines used for evaluation:
 
 Concept Extractor: https://github.com/cttsai/concept-extractor
 Hearst Patterns: https://github.com/mmichelsonIF/hearst_patterns_python/tree/master/hearstPatterns
 
 
-##Titles of papers used: https://drive.google.com/file/d/1XHa5zqwYfuZR21J2XGhmzK_uM1ZGHQa7/view?usp=sharing 
+Titles of papers used: https://drive.google.com/file/d/1XHa5zqwYfuZR21J2XGhmzK_uM1ZGHQa7/view?usp=sharing 
 
-##Additional entities evaluated: https://docs.google.com/spreadsheets/d/1kW9AjSYXdgCVnRSgANTAX3iqdkM3OAPjpr2oWYyAN4Y/edit?usp=sharing 
+Additional entities evaluated: https://docs.google.com/spreadsheets/d/1kW9AjSYXdgCVnRSgANTAX3iqdkM3OAPjpr2oWYyAN4Y/edit?usp=sharing 
 
-##Sources used for Seed term selection:
+#Sources used for Seed term selection:
 
 Datasets (1): https://github.com/caesar0301/awesome-public-datasets 
 Datasets (2): https://www.analyticsvidhya.com/blog/2016/11/25-websites-to-find-datasets-for-data-science-projects/ 
@@ -92,7 +92,7 @@ Methods: https://en.wikipedia.org/w/api.php?action=query&format=json&list=catego
 Proteins: http://obofoundry.org/ontology/pr.html
 
 
-##Context Words used for PMI filtering
+#Context Words used for PMI filtering
 
 Dataset_contextwords = [dataset, corpus, collection, repository, benchmark, website] 
 Method_contextwords = [method, model, algorithm, approach]
@@ -100,12 +100,12 @@ Protein_contextwords  = [protein, receptor]
 Corpus Information
 20,519 Scientific publications, including computer science (for dataset and method entities) and biomedical (for protein entities) domains.
 
-##Computer Science Conferences:
+#Computer Science Conferences:
 
 The evaluation is performed in the domain of scientific publications with a focus on data science and processing. In our corpus, we have 15,994 papers from eight conference series: the International World Wide Web Conference (WWW - 2106 papers from 2001 to 2016); the International Conference on Software Engineering (ICSE - 2983 papers from 1976 to 2016); the International Conference on Very Large Databases (VLDB - 1883 papers from 1975 to 2007); the Joint conference on Digital Libraries (JCDL - 1543 papers from 2001 to 2016); the Text Retrieval Conference (TREC - 1415 papers from 1999 to 2015); the International Conference on Research and Development in Information Retrieval (SIGIR - 3561 papers from 1971 to 2016); the International Conference On Web and Social Media (ICWSM - 815 papers from 2007 to 2016); the European Conference on Research and Advanced Technology on Digital Libraries (ECDL - 797 papers from 1997 to 2010); the Extended Semantic Web Conference (ESWC – 626 papers from 2005) and the International Conference on Theory and Practice of Digital Libraries (TPDL - 276 papers, from 2011 to 2016).
 
 
 
-##Biomedical Journals:
+#Biomedical Journals:
 
 For publications on the biomedical domain, the journals are the same as the ones selected for the CRAFT corpus (available in the Open Access subset of PubMed Central). In this work we use 4,525 papers from 10 journals: Genome Biology and Evolution (GBE - 130 papers from 2012 to 2018); Breast Cancer Research (BCR - 416 papers from 2001 to 2018); BMC Neuroscience (BMC Neurosci - 476 papers from 2003 to 2018); Genome Biology (Genome Biol -716 papers from 2003 to 2018); Breast Cancer Research and Treatment (Breast Cancer Res. Treat - 23 papers from 2016 to 2018); BMC Evolutionary Biology (BMC Evol Biol - 469 papers from 2004 to 2018); BMC Genomics (BMC Genomics - 53 papers from 2002 to 2018); PLoS Biology (PLoS Biol - 875 papers from 2003 to 2018); BMC Biotechnology (BMC Biotechnol - 423 papers from 2002 to 2018); PLoS Genetics (PLoS Genet - 944 papers from 2005 to 2018).
