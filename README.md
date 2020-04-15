@@ -73,7 +73,7 @@ using doc2vec. If the new sentence contains a word of the Term Expansion we will
 ## TSE-NER  cleaned source code: 
 https://github.com/mvallet91/SmartPub-TSENER (check Pipeline_Preparation and Pipeline_TSENER Notebooks for a clear example)
 
-#Seed Terms used: https://docs.google.com/spreadsheets/d/1h2PXyG9hKnMIcaorU5_YzOn8T90nP6COtSnSK3bz6rU/edit?usp=sharing
+## Seed Terms used: https://docs.google.com/spreadsheets/d/1h2PXyG9hKnMIcaorU5_YzOn8T90nP6COtSnSK3bz6rU/edit?usp=sharing
 
 
 
