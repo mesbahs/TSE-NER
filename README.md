@@ -113,3 +113,13 @@ The evaluation is performed in the domain of scientific publications with a focu
 ## Biomedical Journals:
 
 For publications on the biomedical domain, the journals are the same as the ones selected for the CRAFT corpus (available in the Open Access subset of PubMed Central). In this work we use 4,525 papers from 10 journals: Genome Biology and Evolution (GBE - 130 papers from 2012 to 2018); Breast Cancer Research (BCR - 416 papers from 2001 to 2018); BMC Neuroscience (BMC Neurosci - 476 papers from 2003 to 2018); Genome Biology (Genome Biol -716 papers from 2003 to 2018); Breast Cancer Research and Treatment (Breast Cancer Res. Treat - 23 papers from 2016 to 2018); BMC Evolutionary Biology (BMC Evol Biol - 469 papers from 2004 to 2018); BMC Genomics (BMC Genomics - 53 papers from 2002 to 2018); PLoS Biology (PLoS Biol - 875 papers from 2003 to 2018); BMC Biotechnology (BMC Biotechnol - 423 papers from 2002 to 2018); PLoS Genetics (PLoS Genet - 944 papers from 2005 to 2018).
+
+## If you find this dataset useful in your research, please consider citing:
+@inproceedings{mesbah2018tse,
+  title={Tse-ner: An iterative approach for long-tail entity extraction in scientific publications},
+  author={Mesbah, Sepideh and Lofi, Christoph and Torre, Manuel Valle and Bozzon, Alessandro and Houben, Geert-Jan},
+  booktitle={International Semantic Web Conference},
+  pages={127--143},
+  year={2018},
+  organization={Springer}
+}
